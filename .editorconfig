@@ -3,14 +3,18 @@
 # top-most EditorConfig file
 root = true
 
-[*]
+[*.{resource, robot}]
 indent_style = space
 indent_size = 2
-end_of_line = crlf
-charset = utf-8
-trim_trailing_whitespace = true
 insert_final_newline = true
+charset = utf-8
+end_of_line = crlf
+trim_trailing_whitespace = true
 
-[*.yaml]
+[*.yml]
 indent_style = space
-indent_size = 1
+indent_size = 2
+
+[*.toml]
+indent_style = space
+indent_size = 2
